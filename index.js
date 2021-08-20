@@ -1,5 +1,5 @@
 /**
- * Copyright 2012-2019 BigML
+ * Copyright 2012-2019, 2021 BigML
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may
  * not use this file except in compliance with the License. You may obtain
@@ -36,7 +36,7 @@ if (process.env.BIGML_REQUIRE_PRELOAD &&
   require('./lib/MultiVote');
   require('./lib/MultiVoteList');
   require('./lib/tssubmodels');
-  require('./lib/math_ops');
+  require('./lib/mathOps');
   require('jStat');
   require('cwise');
 }
